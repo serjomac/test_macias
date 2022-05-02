@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FF28E5E281F7138001A75F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E5D281F7138001A75F9 /* AppDelegate.swift */; };
+		8FF28E60281F7138001A75F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E5F281F7138001A75F9 /* SceneDelegate.swift */; };
+		8FF28E62281F7138001A75F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E61281F7138001A75F9 /* ViewController.swift */; };
+		8FF28E65281F7138001A75F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28E63281F7138001A75F9 /* Main.storyboard */; };
+		8FF28E68281F7138001A75F9 /* prueba_macias.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E66281F7138001A75F9 /* prueba_macias.xcdatamodeld */; };
+		8FF28E6A281F7139001A75F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28E69281F7139001A75F9 /* Assets.xcassets */; };
+		8FF28E6D281F7139001A75F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28E6B281F7139001A75F9 /* LaunchScreen.storyboard */; };
+		8FF28E78281F7139001A75F9 /* prueba_maciasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E77281F7139001A75F9 /* prueba_maciasTests.swift */; };
+		8FF28E82281F7139001A75F9 /* prueba_maciasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E81281F7139001A75F9 /* prueba_maciasUITests.swift */; };
+		8FF28E84281F7139001A75F9 /* prueba_maciasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E83281F7139001A75F9 /* prueba_maciasUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FF28E74281F7139001A75F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FF28E52281F7138001A75F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FF28E59281F7138001A75F9;
+			remoteInfo = "prueba-macias";
+		};
+		8FF28E7E281F7139001A75F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FF28E52281F7138001A75F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FF28E59281F7138001A75F9;
+			remoteInfo = "prueba-macias";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FF28E5A281F7138001A75F9 /* prueba-macias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "prueba-macias.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF28E5D281F7138001A75F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FF28E5F281F7138001A75F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8FF28E61281F7138001A75F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FF28E64281F7138001A75F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FF28E67281F7138001A75F9 /* prueba_macias.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = prueba_macias.xcdatamodel; sourceTree = "<group>"; };
+		8FF28E69281F7139001A75F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FF28E6C281F7139001A75F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FF28E6E281F7139001A75F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FF28E73281F7139001A75F9 /* prueba-maciasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "prueba-maciasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF28E77281F7139001A75F9 /* prueba_maciasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prueba_maciasTests.swift; sourceTree = "<group>"; };
+		8FF28E7D281F7139001A75F9 /* prueba-maciasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "prueba-maciasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF28E81281F7139001A75F9 /* prueba_maciasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prueba_maciasUITests.swift; sourceTree = "<group>"; };
+		8FF28E83281F7139001A75F9 /* prueba_maciasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prueba_maciasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FF28E57281F7138001A75F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF28E70281F7139001A75F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF28E7A281F7139001A75F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FF28E51281F7138001A75F9 = {
+			isa = PBXGroup;
+			children = (
+				8FF28E5C281F7138001A75F9 /* prueba-macias */,
+				8FF28E76281F7139001A75F9 /* prueba-maciasTests */,
+				8FF28E80281F7139001A75F9 /* prueba-maciasUITests */,
+				8FF28E5B281F7138001A75F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FF28E5B281F7138001A75F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FF28E5A281F7138001A75F9 /* prueba-macias.app */,
+				8FF28E73281F7139001A75F9 /* prueba-maciasTests.xctest */,
+				8FF28E7D281F7139001A75F9 /* prueba-maciasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FF28E5C281F7138001A75F9 /* prueba-macias */ = {
+			isa = PBXGroup;
+			children = (
+				8FF28E5D281F7138001A75F9 /* AppDelegate.swift */,
+				8FF28E5F281F7138001A75F9 /* SceneDelegate.swift */,
+				8FF28E61281F7138001A75F9 /* ViewController.swift */,
+				8FF28E63281F7138001A75F9 /* Main.storyboard */,
+				8FF28E69281F7139001A75F9 /* Assets.xcassets */,
+				8FF28E6B281F7139001A75F9 /* LaunchScreen.storyboard */,
+				8FF28E6E281F7139001A75F9 /* Info.plist */,
+				8FF28E66281F7138001A75F9 /* prueba_macias.xcdatamodeld */,
+			);
+			path = "prueba-macias";
+			sourceTree = "<group>";
+		};
+		8FF28E76281F7139001A75F9 /* prueba-maciasTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FF28E77281F7139001A75F9 /* prueba_maciasTests.swift */,
+			);
+			path = "prueba-maciasTests";
+			sourceTree = "<group>";
+		};
+		8FF28E80281F7139001A75F9 /* prueba-maciasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FF28E81281F7139001A75F9 /* prueba_maciasUITests.swift */,
+				8FF28E83281F7139001A75F9 /* prueba_maciasUITestsLaunchTests.swift */,
+			);
+			path = "prueba-maciasUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FF28E59281F7138001A75F9 /* prueba-macias */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF28E87281F7139001A75F9 /* Build configuration list for PBXNativeTarget "prueba-macias" */;
+			buildPhases = (
+				8FF28E56281F7138001A75F9 /* Sources */,
+				8FF28E57281F7138001A75F9 /* Frameworks */,
+				8FF28E58281F7138001A75F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "prueba-macias";
+			productName = "prueba-macias";
+			productReference = 8FF28E5A281F7138001A75F9 /* prueba-macias.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FF28E72281F7139001A75F9 /* prueba-maciasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF28E8A281F7139001A75F9 /* Build configuration list for PBXNativeTarget "prueba-maciasTests" */;
+			buildPhases = (
+				8FF28E6F281F7139001A75F9 /* Sources */,
+				8FF28E70281F7139001A75F9 /* Frameworks */,
+				8FF28E71281F7139001A75F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FF28E75281F7139001A75F9 /* PBXTargetDependency */,
+			);
+			name = "prueba-maciasTests";
+			productName = "prueba-maciasTests";
+			productReference = 8FF28E73281F7139001A75F9 /* prueba-maciasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FF28E7C281F7139001A75F9 /* prueba-maciasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF28E8D281F7139001A75F9 /* Build configuration list for PBXNativeTarget "prueba-maciasUITests" */;
+			buildPhases = (
+				8FF28E79281F7139001A75F9 /* Sources */,
+				8FF28E7A281F7139001A75F9 /* Frameworks */,
+				8FF28E7B281F7139001A75F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FF28E7F281F7139001A75F9 /* PBXTargetDependency */,
+			);
+			name = "prueba-maciasUITests";
+			productName = "prueba-maciasUITests";
+			productReference = 8FF28E7D281F7139001A75F9 /* prueba-maciasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FF28E52281F7138001A75F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					8FF28E59281F7138001A75F9 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					8FF28E72281F7139001A75F9 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 8FF28E59281F7138001A75F9;
+					};
+					8FF28E7C281F7139001A75F9 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 8FF28E59281F7138001A75F9;
+					};
+				};
+			};
+			buildConfigurationList = 8FF28E55281F7138001A75F9 /* Build configuration list for PBXProject "prueba-macias" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FF28E51281F7138001A75F9;
+			productRefGroup = 8FF28E5B281F7138001A75F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FF28E59281F7138001A75F9 /* prueba-macias */,
+				8FF28E72281F7139001A75F9 /* prueba-maciasTests */,
+				8FF28E7C281F7139001A75F9 /* prueba-maciasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FF28E58281F7138001A75F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF28E6D281F7139001A75F9 /* LaunchScreen.storyboard in Resources */,
+				8FF28E6A281F7139001A75F9 /* Assets.xcassets in Resources */,
+				8FF28E65281F7138001A75F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF28E71281F7139001A75F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF28E7B281F7139001A75F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FF28E56281F7138001A75F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF28E62281F7138001A75F9 /* ViewController.swift in Sources */,
+				8FF28E5E281F7138001A75F9 /* AppDelegate.swift in Sources */,
+				8FF28E68281F7138001A75F9 /* prueba_macias.xcdatamodeld in Sources */,
+				8FF28E60281F7138001A75F9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF28E6F281F7139001A75F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF28E78281F7139001A75F9 /* prueba_maciasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF28E79281F7139001A75F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF28E82281F7139001A75F9 /* prueba_maciasUITests.swift in Sources */,
+				8FF28E84281F7139001A75F9 /* prueba_maciasUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FF28E75281F7139001A75F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FF28E59281F7138001A75F9 /* prueba-macias */;
+			targetProxy = 8FF28E74281F7139001A75F9 /* PBXContainerItemProxy */;
+		};
+		8FF28E7F281F7139001A75F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FF28E59281F7138001A75F9 /* prueba-macias */;
+			targetProxy = 8FF28E7E281F7139001A75F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FF28E63281F7138001A75F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FF28E64281F7138001A75F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FF28E6B281F7139001A75F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FF28E6C281F7139001A75F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FF28E85281F7139001A75F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FF28E86281F7139001A75F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FF28E88281F7139001A75F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "prueba-macias/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zemoga.prueba-macias";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FF28E89281F7139001A75F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "prueba-macias/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zemoga.prueba-macias";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FF28E8B281F7139001A75F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zemoga.prueba-maciasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prueba-macias.app/prueba-macias";
+			};
+			name = Debug;
+		};
+		8FF28E8C281F7139001A75F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zemoga.prueba-maciasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prueba-macias.app/prueba-macias";
+			};
+			name = Release;
+		};
+		8FF28E8E281F7139001A75F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zemoga.prueba-maciasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "prueba-macias";
+			};
+			name = Debug;
+		};
+		8FF28E8F281F7139001A75F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zemoga.prueba-maciasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "prueba-macias";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FF28E55281F7138001A75F9 /* Build configuration list for PBXProject "prueba-macias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF28E85281F7139001A75F9 /* Debug */,
+				8FF28E86281F7139001A75F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF28E87281F7139001A75F9 /* Build configuration list for PBXNativeTarget "prueba-macias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF28E88281F7139001A75F9 /* Debug */,
+				8FF28E89281F7139001A75F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF28E8A281F7139001A75F9 /* Build configuration list for PBXNativeTarget "prueba-maciasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF28E8B281F7139001A75F9 /* Debug */,
+				8FF28E8C281F7139001A75F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF28E8D281F7139001A75F9 /* Build configuration list for PBXNativeTarget "prueba-maciasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF28E8E281F7139001A75F9 /* Debug */,
+				8FF28E8F281F7139001A75F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8FF28E66281F7138001A75F9 /* prueba_macias.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8FF28E67281F7138001A75F9 /* prueba_macias.xcdatamodel */,
+			);
+			currentVersion = 8FF28E67281F7138001A75F9 /* prueba_macias.xcdatamodel */;
+			path = prueba_macias.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8FF28E52281F7138001A75F9 /* Project object */;
+}
