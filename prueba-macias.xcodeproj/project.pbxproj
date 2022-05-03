@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1655C774DCDFA0C0EB42BD4F /* Pods_prueba_maciasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8254BF0A9AFCD53F84326B69 /* Pods_prueba_maciasTests.framework */; };
+		842C283C23C91F37A6F45C2D /* Pods_prueba_macias_prueba_maciasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEB3D7059EC1F075372954F /* Pods_prueba_macias_prueba_maciasUITests.framework */; };
 		8FF28E5E281F7138001A75F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E5D281F7138001A75F9 /* AppDelegate.swift */; };
 		8FF28E60281F7138001A75F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E5F281F7138001A75F9 /* SceneDelegate.swift */; };
-		8FF28E62281F7138001A75F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E61281F7138001A75F9 /* ViewController.swift */; };
 		8FF28E65281F7138001A75F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28E63281F7138001A75F9 /* Main.storyboard */; };
-		8FF28E68281F7138001A75F9 /* prueba_macias.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E66281F7138001A75F9 /* prueba_macias.xcdatamodeld */; };
+		8FF28E68281F7138001A75F9 /* posts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E66281F7138001A75F9 /* posts.xcdatamodeld */; };
 		8FF28E6A281F7139001A75F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28E69281F7139001A75F9 /* Assets.xcassets */; };
 		8FF28E6D281F7139001A75F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28E6B281F7139001A75F9 /* LaunchScreen.storyboard */; };
 		8FF28E78281F7139001A75F9 /* prueba_maciasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E77281F7139001A75F9 /* prueba_maciasTests.swift */; };
 		8FF28E82281F7139001A75F9 /* prueba_maciasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E81281F7139001A75F9 /* prueba_maciasUITests.swift */; };
 		8FF28E84281F7139001A75F9 /* prueba_maciasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E83281F7139001A75F9 /* prueba_maciasUITestsLaunchTests.swift */; };
+		8FF28E96281F74B5001A75F9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E95281F74B5001A75F9 /* Post.swift */; };
+		8FF28E99281F7761001A75F9 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E98281F7761001A75F9 /* PostService.swift */; };
+		8FF28E9D281F7FCA001A75F9 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E9C281F7FCA001A75F9 /* HomeVC.swift */; };
+		8FF28E9F281F809E001A75F9 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28E9E281F809E001A75F9 /* PostTableViewCell.swift */; };
+		8FF28EA1281F8CB0001A75F9 /* PostDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28EA0281F8CB0001A75F9 /* PostDataSource.swift */; };
+		8FF28EA4281FA633001A75F9 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28EA3281FA633001A75F9 /* String.swift */; };
+		8FF28EA6281FA669001A75F9 /* PostTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28EA5281FA669001A75F9 /* PostTableDelegate.swift */; };
+		8FF28EA8282065D6001A75F9 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28EA7282065D6001A75F9 /* CommentTableViewCell.swift */; };
+		8FF28EAA2820667D001A75F9 /* CommentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28EA92820667D001A75F9 /* CommentsVC.swift */; };
+		8FF28EAC282067C1001A75F9 /* CommnetDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28EAB282067C1001A75F9 /* CommnetDataSource.swift */; };
+		8FF28EAE28206A1F001A75F9 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28EAD28206A1F001A75F9 /* Comment.swift */; };
+		8FF28EB02820993E001A75F9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28EAF2820993E001A75F9 /* User.swift */; };
+		8FF28EB22820CAAD001A75F9 /* CommentTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28EB12820CAAD001A75F9 /* CommentTableDelegate.swift */; };
+		8FF28EB42820D51E001A75F9 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28EB32820D51E001A75F9 /* CoreDataManager.swift */; };
+		CE0ECFD049341A73960EA273 /* Pods_prueba_macias.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8A5E226A7CDC5EB743A019 /* Pods_prueba_macias.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +53,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AEB3D7059EC1F075372954F /* Pods_prueba_macias_prueba_maciasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_prueba_macias_prueba_maciasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3DEA444EED9969D7ED3CDF /* Pods-prueba-macias.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba-macias.release.xcconfig"; path = "Target Support Files/Pods-prueba-macias/Pods-prueba-macias.release.xcconfig"; sourceTree = "<group>"; };
+		428488C026238E5EBFBDBDD3 /* Pods-prueba-maciasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba-maciasTests.release.xcconfig"; path = "Target Support Files/Pods-prueba-maciasTests/Pods-prueba-maciasTests.release.xcconfig"; sourceTree = "<group>"; };
+		8254BF0A9AFCD53F84326B69 /* Pods_prueba_maciasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_prueba_maciasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF28E5A281F7138001A75F9 /* prueba-macias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "prueba-macias.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF28E5D281F7138001A75F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FF28E5F281F7138001A75F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8FF28E61281F7138001A75F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8FF28E64281F7138001A75F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FF28E67281F7138001A75F9 /* prueba_macias.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = prueba_macias.xcdatamodel; sourceTree = "<group>"; };
 		8FF28E69281F7139001A75F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +70,25 @@
 		8FF28E7D281F7139001A75F9 /* prueba-maciasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "prueba-maciasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF28E81281F7139001A75F9 /* prueba_maciasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prueba_maciasUITests.swift; sourceTree = "<group>"; };
 		8FF28E83281F7139001A75F9 /* prueba_maciasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prueba_maciasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8FF28E95281F74B5001A75F9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8FF28E98281F7761001A75F9 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		8FF28E9C281F7FCA001A75F9 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		8FF28E9E281F809E001A75F9 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		8FF28EA0281F8CB0001A75F9 /* PostDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDataSource.swift; sourceTree = "<group>"; };
+		8FF28EA3281FA633001A75F9 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		8FF28EA5281FA669001A75F9 /* PostTableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableDelegate.swift; sourceTree = "<group>"; };
+		8FF28EA7282065D6001A75F9 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		8FF28EA92820667D001A75F9 /* CommentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsVC.swift; sourceTree = "<group>"; };
+		8FF28EAB282067C1001A75F9 /* CommnetDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommnetDataSource.swift; sourceTree = "<group>"; };
+		8FF28EAD28206A1F001A75F9 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		8FF28EAF2820993E001A75F9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8FF28EB12820CAAD001A75F9 /* CommentTableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableDelegate.swift; sourceTree = "<group>"; };
+		8FF28EB32820D51E001A75F9 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		913A4A2AE568BA0700573C67 /* Pods-prueba-maciasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba-maciasTests.debug.xcconfig"; path = "Target Support Files/Pods-prueba-maciasTests/Pods-prueba-maciasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B90FE2D4AD14B8A6E273892F /* Pods-prueba-macias-prueba-maciasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba-macias-prueba-maciasUITests.release.xcconfig"; path = "Target Support Files/Pods-prueba-macias-prueba-maciasUITests/Pods-prueba-macias-prueba-maciasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C6D60D3B394CDCEAE1AF7005 /* Pods-prueba-macias.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba-macias.debug.xcconfig"; path = "Target Support Files/Pods-prueba-macias/Pods-prueba-macias.debug.xcconfig"; sourceTree = "<group>"; };
+		CB8A5E226A7CDC5EB743A019 /* Pods_prueba_macias.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_prueba_macias.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD204D139ACD3F9AF9BEF6C3 /* Pods-prueba-macias-prueba-maciasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba-macias-prueba-maciasUITests.debug.xcconfig"; path = "Target Support Files/Pods-prueba-macias-prueba-maciasUITests/Pods-prueba-macias-prueba-maciasUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0ECFD049341A73960EA273 /* Pods_prueba_macias.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1655C774DCDFA0C0EB42BD4F /* Pods_prueba_maciasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +112,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842C283C23C91F37A6F45C2D /* Pods_prueba_macias_prueba_maciasUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B68AB7BF95121F18066E0EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB8A5E226A7CDC5EB743A019 /* Pods_prueba_macias.framework */,
+				2AEB3D7059EC1F075372954F /* Pods_prueba_macias_prueba_maciasUITests.framework */,
+				8254BF0A9AFCD53F84326B69 /* Pods_prueba_maciasTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8FF28E51281F7138001A75F9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +136,8 @@
 				8FF28E76281F7139001A75F9 /* prueba-maciasTests */,
 				8FF28E80281F7139001A75F9 /* prueba-maciasUITests */,
 				8FF28E5B281F7138001A75F9 /* Products */,
+				CB7730434E6D02C69642916D /* Pods */,
+				6B68AB7BF95121F18066E0EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +154,16 @@
 		8FF28E5C281F7138001A75F9 /* prueba-macias */ = {
 			isa = PBXGroup;
 			children = (
+				8FF28E9B281F7E61001A75F9 /* ViewCell */,
+				8FF28E9A281F7E4F001A75F9 /* Delegate */,
+				8FF28E92281F7492001A75F9 /* Core */,
+				8FF28E91281F715E001A75F9 /* ViewControllers */,
+				8FF28E90281F7154001A75F9 /* Storyboards */,
 				8FF28E5D281F7138001A75F9 /* AppDelegate.swift */,
-				8FF28E5F281F7138001A75F9 /* SceneDelegate.swift */,
-				8FF28E61281F7138001A75F9 /* ViewController.swift */,
-				8FF28E63281F7138001A75F9 /* Main.storyboard */,
 				8FF28E69281F7139001A75F9 /* Assets.xcassets */,
 				8FF28E6B281F7139001A75F9 /* LaunchScreen.storyboard */,
 				8FF28E6E281F7139001A75F9 /* Info.plist */,
-				8FF28E66281F7138001A75F9 /* prueba_macias.xcdatamodeld */,
+				8FF28E66281F7138001A75F9 /* posts.xcdatamodeld */,
 			);
 			path = "prueba-macias";
 			sourceTree = "<group>";
@@ -130,6 +185,94 @@
 			path = "prueba-maciasUITests";
 			sourceTree = "<group>";
 		};
+		8FF28E90281F7154001A75F9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8FF28E63281F7138001A75F9 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8FF28E91281F715E001A75F9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FF28E5F281F7138001A75F9 /* SceneDelegate.swift */,
+				8FF28E9C281F7FCA001A75F9 /* HomeVC.swift */,
+				8FF28EA92820667D001A75F9 /* CommentsVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8FF28E92281F7492001A75F9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8FF28EA2281FA61C001A75F9 /* Extension */,
+				8FF28E97281F7706001A75F9 /* Service */,
+				8FF28E93281F749C001A75F9 /* Models */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8FF28E93281F749C001A75F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8FF28E95281F74B5001A75F9 /* Post.swift */,
+				8FF28EAD28206A1F001A75F9 /* Comment.swift */,
+				8FF28EAF2820993E001A75F9 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8FF28E97281F7706001A75F9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8FF28E98281F7761001A75F9 /* PostService.swift */,
+				8FF28EB32820D51E001A75F9 /* CoreDataManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8FF28E9A281F7E4F001A75F9 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8FF28EA0281F8CB0001A75F9 /* PostDataSource.swift */,
+				8FF28EA5281FA669001A75F9 /* PostTableDelegate.swift */,
+				8FF28EAB282067C1001A75F9 /* CommnetDataSource.swift */,
+				8FF28EB12820CAAD001A75F9 /* CommentTableDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		8FF28E9B281F7E61001A75F9 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8FF28E9E281F809E001A75F9 /* PostTableViewCell.swift */,
+				8FF28EA7282065D6001A75F9 /* CommentTableViewCell.swift */,
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
+		8FF28EA2281FA61C001A75F9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8FF28EA3281FA633001A75F9 /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CB7730434E6D02C69642916D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6D60D3B394CDCEAE1AF7005 /* Pods-prueba-macias.debug.xcconfig */,
+				2E3DEA444EED9969D7ED3CDF /* Pods-prueba-macias.release.xcconfig */,
+				CD204D139ACD3F9AF9BEF6C3 /* Pods-prueba-macias-prueba-maciasUITests.debug.xcconfig */,
+				B90FE2D4AD14B8A6E273892F /* Pods-prueba-macias-prueba-maciasUITests.release.xcconfig */,
+				913A4A2AE568BA0700573C67 /* Pods-prueba-maciasTests.debug.xcconfig */,
+				428488C026238E5EBFBDBDD3 /* Pods-prueba-maciasTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +280,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FF28E87281F7139001A75F9 /* Build configuration list for PBXNativeTarget "prueba-macias" */;
 			buildPhases = (
+				397154E1385AB4BE10726CC3 /* [CP] Check Pods Manifest.lock */,
 				8FF28E56281F7138001A75F9 /* Sources */,
 				8FF28E57281F7138001A75F9 /* Frameworks */,
 				8FF28E58281F7138001A75F9 /* Resources */,
+				6689AB69EF76FB7A42EB97B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +299,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FF28E8A281F7139001A75F9 /* Build configuration list for PBXNativeTarget "prueba-maciasTests" */;
 			buildPhases = (
+				669A3739E2CD965E3F091259 /* [CP] Check Pods Manifest.lock */,
 				8FF28E6F281F7139001A75F9 /* Sources */,
 				8FF28E70281F7139001A75F9 /* Frameworks */,
 				8FF28E71281F7139001A75F9 /* Resources */,
@@ -172,9 +318,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FF28E8D281F7139001A75F9 /* Build configuration list for PBXNativeTarget "prueba-maciasUITests" */;
 			buildPhases = (
+				1BD49F39156A4223A89279BB /* [CP] Check Pods Manifest.lock */,
 				8FF28E79281F7139001A75F9 /* Sources */,
 				8FF28E7A281F7139001A75F9 /* Frameworks */,
 				8FF28E7B281F7139001A75F9 /* Resources */,
+				153EF0D1C90FEF1FB4C697BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +404,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		153EF0D1C90FEF1FB4C697BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-prueba-macias-prueba-maciasUITests/Pods-prueba-macias-prueba-maciasUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-prueba-macias-prueba-maciasUITests/Pods-prueba-macias-prueba-maciasUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-prueba-macias-prueba-maciasUITests/Pods-prueba-macias-prueba-maciasUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BD49F39156A4223A89279BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-prueba-macias-prueba-maciasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		397154E1385AB4BE10726CC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-prueba-macias-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6689AB69EF76FB7A42EB97B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-prueba-macias/Pods-prueba-macias-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-prueba-macias/Pods-prueba-macias-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-prueba-macias/Pods-prueba-macias-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		669A3739E2CD965E3F091259 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-prueba-maciasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FF28E56281F7138001A75F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FF28E62281F7138001A75F9 /* ViewController.swift in Sources */,
+				8FF28EA8282065D6001A75F9 /* CommentTableViewCell.swift in Sources */,
+				8FF28EA1281F8CB0001A75F9 /* PostDataSource.swift in Sources */,
+				8FF28EAA2820667D001A75F9 /* CommentsVC.swift in Sources */,
+				8FF28EAE28206A1F001A75F9 /* Comment.swift in Sources */,
+				8FF28EB42820D51E001A75F9 /* CoreDataManager.swift in Sources */,
+				8FF28E99281F7761001A75F9 /* PostService.swift in Sources */,
+				8FF28E9F281F809E001A75F9 /* PostTableViewCell.swift in Sources */,
+				8FF28EA4281FA633001A75F9 /* String.swift in Sources */,
 				8FF28E5E281F7138001A75F9 /* AppDelegate.swift in Sources */,
-				8FF28E68281F7138001A75F9 /* prueba_macias.xcdatamodeld in Sources */,
+				8FF28EB02820993E001A75F9 /* User.swift in Sources */,
+				8FF28EA6281FA669001A75F9 /* PostTableDelegate.swift in Sources */,
+				8FF28E68281F7138001A75F9 /* posts.xcdatamodeld in Sources */,
+				8FF28EB22820CAAD001A75F9 /* CommentTableDelegate.swift in Sources */,
+				8FF28E9D281F7FCA001A75F9 /* HomeVC.swift in Sources */,
 				8FF28E60281F7138001A75F9 /* SceneDelegate.swift in Sources */,
+				8FF28EAC282067C1001A75F9 /* CommnetDataSource.swift in Sources */,
+				8FF28E96281F74B5001A75F9 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +700,7 @@
 		};
 		8FF28E88281F7139001A75F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D60D3B394CDCEAE1AF7005 /* Pods-prueba-macias.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +713,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +729,7 @@
 		};
 		8FF28E89281F7139001A75F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E3DEA444EED9969D7ED3CDF /* Pods-prueba-macias.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +742,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,6 +758,7 @@
 		};
 		8FF28E8B281F7139001A75F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 913A4A2AE568BA0700573C67 /* Pods-prueba-maciasTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +778,7 @@
 		};
 		8FF28E8C281F7139001A75F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 428488C026238E5EBFBDBDD3 /* Pods-prueba-maciasTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +798,7 @@
 		};
 		8FF28E8E281F7139001A75F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD204D139ACD3F9AF9BEF6C3 /* Pods-prueba-macias-prueba-maciasUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +816,7 @@
 		};
 		8FF28E8F281F7139001A75F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90FE2D4AD14B8A6E273892F /* Pods-prueba-macias-prueba-maciasUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -602,13 +874,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		8FF28E66281F7138001A75F9 /* prueba_macias.xcdatamodeld */ = {
+		8FF28E66281F7138001A75F9 /* posts.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				8FF28E67281F7138001A75F9 /* prueba_macias.xcdatamodel */,
 			);
 			currentVersion = 8FF28E67281F7138001A75F9 /* prueba_macias.xcdatamodel */;
-			path = prueba_macias.xcdatamodeld;
+			path = posts.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

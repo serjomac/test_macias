@@ -1,0 +1,6 @@
+framework module Pods_prueba_macias {
+  umbrella header "Pods-prueba-macias-umbrella.h"
+
+  export *
+  module * { export * }
+}
