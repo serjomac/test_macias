@@ -49,7 +49,11 @@ class CoreDataManager {
             let result = try container.viewContext.fetch(fetchRequest)
             for res in result {
                 let post = Post(userID: Int(res.userID), id: Int(res.id), title: res.title, body: res.body, isFavorite: res.isFavorite)
-                posts.append(post)
+                if res.isFavorite {
+                    posts.insert(post, at: 0)
+                } else {
+                    posts.append(post)
+                }
             }
             return posts
             } catch {
